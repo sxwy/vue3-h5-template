@@ -27,7 +27,7 @@ Vue3 + TypeScript + Vant4 项目模板
 
 ## 开发规范
 
-参照 [掌通家园前端开发规范](http://10.107.147.97:38000/standard/)
+参照 [前端开发规范](https://sxwy.github.io/standard/)
 
 ### 分支管理
 
