@@ -1,7 +1,7 @@
 import { type RouteRecordRaw, RouterView } from 'vue-router'
 
-// 示例相关页面
-const demoRoutes: RouteRecordRaw = {
+/** 示例相关页面 */
+export default {
   path: '/demo',
   component: RouterView,
   children: [
@@ -18,6 +18,4 @@ const demoRoutes: RouteRecordRaw = {
       component: () => import('@/pages/demo/result.vue')
     }
   ]
-}
-
-export default demoRoutes
+} as RouteRecordRaw
