@@ -1,5 +1,5 @@
 /** 数据缓存 key */
-export const CACHE_KEY = 'H5_TEMPLATE'
+export const CACHE_KEY = 'VUE3_H5_TEMPLATE'
 
 /** store 缓存 key */
 export const STORE_CACHE_KEY = `${CACHE_KEY}_store`

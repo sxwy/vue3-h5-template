@@ -1,4 +1,4 @@
-# h5-template
+# vue3-h5-template
 
 Vue3 + TypeScript + Vant4 项目模板
 
@@ -247,15 +247,15 @@ ps：图片资源都需要使用 [tinypng](https://tinypng.com/) 压缩优化。
 ### 测试环境
 
 1. 功能 feature 分支合并到 cicd_test 分支，等待自动化部署
-2. 访问地址：https://sxwy.github.io/h5-template/${route}
+2. 访问地址：https://sxwy.github.io/vue3-h5-template/${route}
 
 ### 预发环境
 
 1. 从 master 新建 release 分支，并填写对应版本信息，再把功能分支合并到 release，最后 release 合并到 cicd_rc，等待自动化部署
-2. 访问地址：https://sxwy.github.io/h5-template/${route}
+2. 访问地址：https://sxwy.github.io/vue3-h5-template/${route}
 
 ### 正式环境
 
 1. 把预发环境的 release 分支合并到 cicd_prod，等待自动化部署
 2. 上线后，记得让管理员把对应的 release 分支合并到 master 分支
-3. 访问地址：https://sxwy.github.io/h5-template/${route}
+3. 访问地址：https://sxwy.github.io/vue3-h5-template/${route}
