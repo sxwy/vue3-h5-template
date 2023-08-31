@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vueexport-helper-c27b6911.js";import{c,o}from"./index-91bbd32c.js";const r={};function n(t,s){return o(),c("div",null," 首页 ")}const f=e(r,[["render",n]]);export{f as default};
