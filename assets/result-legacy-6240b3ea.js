@@ -1,1 +1,0 @@
-System.register(["./plugin-vueexport-helper-legacy-762b7923.js","./index-legacy-01bd1d8a.js"],(function(e,t){"use strict";var r,n,u;return{setters:[e=>{r=e._},e=>{n=e.c,u=e.o}],execute:function(){e("default",r({},[["render",function(e,t){return u(),n("div",null," 结果页 ")}]]))}}}));
