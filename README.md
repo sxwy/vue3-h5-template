@@ -6,7 +6,7 @@ Vue3 + TypeScript + Vant4 项目模板
 
 - 依赖管理：Yarn
 - 编程语言：HTML + TypeScript + Scss
-- 开发框架： Vue3
+- 开发框架：Vue3
 - 组件库：Vant4
 - 公共库：暂无
 
