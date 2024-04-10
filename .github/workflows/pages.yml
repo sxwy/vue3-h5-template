@@ -15,12 +15,12 @@ jobs:
       - name: UseNode
         uses: actions/setup-node@v3
         with:
-          node-version: 16.18.0
+          node-version: 18.18.0
 
       - name: Build
         run: |
-          yarn
-          yarn run build:prod
+          pnpm
+          pnpm run build:prod
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.3

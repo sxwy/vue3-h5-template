@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import axios from 'axios'
 
 // https://github.com/axios/axios/issues/1510

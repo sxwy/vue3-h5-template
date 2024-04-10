@@ -4,7 +4,7 @@ Vue3 + TypeScript + Vant4 项目模板
 
 ## 技术栈
 
-- 依赖管理：Yarn
+- 依赖管理：PNPM
 - 编程语言：HTML + TypeScript + Scss
 - 开发框架：Vue3
 - 组件库：Vant4
@@ -12,7 +12,7 @@ Vue3 + TypeScript + Vant4 项目模板
 
 ## 开发环境
 
-- Node.js 16.18.0
+- Node.js 18.18.0
 - Visual Studio Code
 
   - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
@@ -81,8 +81,8 @@ Vue3 + TypeScript + Vant4 项目模板
 - 可运行以下命令校验或修复代码格式（如代码格式有问题，则会提交不了代码！）
 
 ```shell
-yarn lint   # 校验代码格式
-yarn format # 修正代码格式
+pnpm run lint   # 校验代码格式
+pnpm run format # 修正代码格式
 ```
 
 ### 提交信息
@@ -147,14 +147,15 @@ yarn format # 修正代码格式
 ├── .stylelintignore                  # stylelint 忽略配置
 ├── .stylelintrc.js                   # stylelint 配置
 ├── index.html                        # html 文件
+├── LICENSE                           # 许可证
 ├── package.json                      # 项目配置
+├── pnpm-lock.yaml                    # 项目版本锁
 ├── postcss.config.js                 # postcss 配置
 ├── README.md                         # 开发说明
 ├── tsconfig.app.json                 # ts app 配置
 ├── tsconfig.json                     # ts 配置
 ├── tsconfig.node.json                # ts node 配置
-├── vite.config.ts                    # 项目构建配置
-└── yarn.lock                         # 项目版本锁
+├── vite.config.mts                   # 项目构建配置
 ```
 
 #### 接口封装
@@ -231,15 +232,15 @@ ps：图片资源都需要使用 [tinypng](https://tinypng.com/) 压缩优化。
 1. 在命令行启动编译服务
 
    ```shell
-   yarn             # 安装依赖
-   yarn serve:mock  # 开发模拟环境
-   yarn serve:alpha # 开发测试环境
-   yarn serve:rc    # 开发预发环境
-   yarn serve:prod  # 开发正式环境
-   yarn build:mock  # 打包模拟环境
-   yarn build:alpha # 打包测试环境
-   yarn build:rc    # 打包预发环境
-   yarn build:prod  # 打包正式环境
+   pnpm install         # 安装依赖
+   pnpm run serve:mock  # 开发模拟环境
+   pnpm run serve:alpha # 开发测试环境
+   pnpm run serve:rc    # 开发预发环境
+   pnpm run serve:prod  # 开发正式环境
+   pnpm run build:mock  # 打包模拟环境
+   pnpm run build:alpha # 打包测试环境
+   pnpm run build:rc    # 打包预发环境
+   pnpm run build:prod  # 打包正式环境
    ```
 
 ## 发布说明

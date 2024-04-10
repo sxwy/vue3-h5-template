@@ -51,7 +51,6 @@ export default defineConfig((config) => {
       }
     },
     build: {
-      target: 'esnext',
       // 主要解决 GitHub 页面阻止了以下划线字符开头的文件 https://github.com/vitejs/vite/issues/9119
       rollupOptions: {
         output: {
