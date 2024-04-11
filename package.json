@@ -38,10 +38,10 @@
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@sxwy/commitlint-config": "^1.6.0",
-    "@sxwy/eslint-config-vue": "^1.7.0",
-    "@sxwy/prettier-config": "^1.6.0",
-    "@sxwy/stylelint-config": "^1.8.0",
+    "@sxwy/commitlint-config": "^1.7.0",
+    "@sxwy/eslint-config-vue": "^1.8.0",
+    "@sxwy/prettier-config": "^1.7.0",
+    "@sxwy/stylelint-config": "^1.9.0",
     "@tsconfig/node20": "^20.1.4",
     "@types/express": "^4.17.21",
     "@types/node": "^20.12.7",
@@ -49,7 +49,7 @@
     "@vitejs/plugin-vue": "^5.0.4",
     "@vitejs/plugin-vue-jsx": "^3.1.0",
     "@vue/tsconfig": "^0.5.1",
-    "commitlint": "^18.6.1",
+    "commitlint": "^19.2.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.57.0",
     "express": "^4.19.2",
@@ -59,11 +59,11 @@
     "mockjs": "^1.1.0",
     "only-allow": "^1.2.1",
     "postcss-px-to-viewport-8-plugin": "^1.2.5",
-    "prettier": "^2.8.8",
+    "prettier": "^3.2.5",
     "sass": "^1.74.1",
     "sass-loader": "^14.1.1",
-    "stylelint": "^14.16.1",
-    "typescript": "~5.1.6",
+    "stylelint": "^16.3.1",
+    "typescript": "~5.4.5",
     "vite": "^5.2.8",
     "vue-tsc": "^2.0.12"
   }
