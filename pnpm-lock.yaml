@@ -110,8 +110,8 @@ devDependencies:
     specifier: ^5.2.8
     version: 5.2.8(@types/node@20.12.7)(sass@1.74.1)(terser@5.30.3)
   vue-tsc:
-    specifier: ^2.0.11
-    version: 2.0.11(typescript@5.1.6)
+    specifier: ^2.0.12
+    version: 2.0.12(typescript@5.1.6)
 
 packages:
   /@aashutoshrathi/word-wrap@1.2.6:
@@ -1905,14 +1905,14 @@ packages:
       '@commitlint/types': 17.8.1
       '@types/node': 20.5.1
       chalk: 4.1.2
-      cosmiconfig: 8.3.6(typescript@5.2.2)
-      cosmiconfig-typescript-loader: 4.4.0(@types/node@20.5.1)(cosmiconfig@8.3.6)(ts-node@10.9.2)(typescript@5.2.2)
+      cosmiconfig: 8.3.6(typescript@5.4.5)
+      cosmiconfig-typescript-loader: 4.4.0(@types/node@20.5.1)(cosmiconfig@8.3.6)(ts-node@10.9.2)(typescript@5.4.5)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
       resolve-from: 5.0.0
       ts-node: 10.9.2(@types/node@20.12.7)(typescript@5.1.6)
-      typescript: 5.2.2
+      typescript: 5.4.5
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -3436,10 +3436,10 @@ packages:
       }
     dev: false
 
-  /@vue/language-core@2.0.11(typescript@5.1.6):
+  /@vue/language-core@2.0.12(typescript@5.1.6):
     resolution:
       {
-        integrity: sha512-5ivg8Vem/yckzXI3L3n0mdKBPRcHSlsGt6/dpbEx42PcH3MIHAjSAJBYvENXeWJxv2ClQc8BS2mH1Ho2U7jZig==
+        integrity: sha512-aIStDPt69SHOpiIckGTIIjEz/sXc6ZfCMS5uWYL1AcbcRMhzFCLZscGAVte1+ad+RRFepSpKBjGttyPcgKJ7ww==
       }
     peerDependencies:
       typescript: '*'
@@ -3969,7 +3969,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001608
-      electron-to-chromium: 1.4.730
+      electron-to-chromium: 1.4.731
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
     dev: true
@@ -4423,7 +4423,7 @@ packages:
       }
     requiresBuild: true
 
-  /cosmiconfig-typescript-loader@4.4.0(@types/node@20.5.1)(cosmiconfig@8.3.6)(ts-node@10.9.2)(typescript@5.2.2):
+  /cosmiconfig-typescript-loader@4.4.0(@types/node@20.5.1)(cosmiconfig@8.3.6)(ts-node@10.9.2)(typescript@5.4.5):
     resolution:
       {
         integrity: sha512-BabizFdC3wBHhbI4kJh0VkQP9GkBfoHPydD0COMce1nJ1kJAB3F2TmJ/I7diULBKtmEWSwEbuN/KDtgnmUUVmw==
@@ -4436,9 +4436,9 @@ packages:
       typescript: '>=4'
     dependencies:
       '@types/node': 20.5.1
-      cosmiconfig: 8.3.6(typescript@5.2.2)
+      cosmiconfig: 8.3.6(typescript@5.4.5)
       ts-node: 10.9.2(@types/node@20.12.7)(typescript@5.1.6)
-      typescript: 5.2.2
+      typescript: 5.4.5
     dev: true
 
   /cosmiconfig-typescript-loader@5.0.0(@types/node@20.12.7)(cosmiconfig@8.3.6)(typescript@5.1.6):
@@ -4491,7 +4491,7 @@ packages:
       typescript: 5.1.6
     dev: true
 
-  /cosmiconfig@8.3.6(typescript@5.2.2):
+  /cosmiconfig@8.3.6(typescript@5.4.5):
     resolution:
       {
         integrity: sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA==
@@ -4507,7 +4507,7 @@ packages:
       js-yaml: 4.1.0
       parse-json: 5.2.0
       path-type: 4.0.0
-      typescript: 5.2.2
+      typescript: 5.4.5
     dev: true
 
   /create-require@1.1.1:
@@ -4838,10 +4838,10 @@ packages:
       }
     dev: true
 
-  /electron-to-chromium@1.4.730:
+  /electron-to-chromium@1.4.731:
     resolution:
       {
-        integrity: sha512-oJRPo82XEqtQAobHpJIR3zW5YO3sSRRkPz2an4yxi1UvqhsGm54vR/wzTFV74a3soDOJ8CKW7ajOOX5ESzddwg==
+        integrity: sha512-+TqVfZjpRz2V/5SPpmJxq9qK620SC5SqCnxQIOi7i/U08ZDcTpKbT7Xjj9FU5CbXTMUb4fywbIr8C7cGv4hcjw==
       }
     dev: true
 
@@ -9197,10 +9197,10 @@ packages:
     engines: { node: '>=14.17' }
     hasBin: true
 
-  /typescript@5.2.2:
+  /typescript@5.4.5:
     resolution:
       {
-        integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
+        integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==
       }
     engines: { node: '>=14.17' }
     hasBin: true
@@ -9474,17 +9474,17 @@ packages:
       he: 1.2.0
     dev: true
 
-  /vue-tsc@2.0.11(typescript@5.1.6):
+  /vue-tsc@2.0.12(typescript@5.1.6):
     resolution:
       {
-        integrity: sha512-dl5MEU4VGZdQFGBnKfPpAfV3SQmBDWs9o4YhUPvDmwk+zmb/RprzFJK2sagR6EWazogZhXENvykd3wBXWS9kng==
+        integrity: sha512-thlBBWlPYrNdba535oDdxz7PRUufZgRZRVP5Aql5wBVpGSWSeqou4EzFXeKVoZr59lp9hJROubDVzlhACmcEhg==
       }
     hasBin: true
     peerDependencies:
       typescript: '*'
     dependencies:
       '@volar/typescript': 2.2.0-alpha.7
-      '@vue/language-core': 2.0.11(typescript@5.1.6)
+      '@vue/language-core': 2.0.12(typescript@5.1.6)
       semver: 7.6.0
       typescript: 5.1.6
     dev: true

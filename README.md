@@ -12,7 +12,7 @@ Vue3 + TypeScript + Vant4 项目模板
 
 ## 开发环境
 
-- Node.js 18.18.0
+- Node.js 20.12.0
 - Visual Studio Code
 
   - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
