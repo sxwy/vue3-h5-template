@@ -29,17 +29,17 @@ dependencies:
 
 devDependencies:
   '@sxwy/commitlint-config':
-    specifier: ^1.7.0
-    version: 1.7.0(@types/node@20.12.7)(typescript@5.4.5)
+    specifier: ^2.0.0
+    version: 2.0.0(@types/node@20.12.7)(commitlint@19.2.1)(typescript@5.4.5)
   '@sxwy/eslint-config-vue':
-    specifier: ^1.8.0
-    version: 1.8.0(eslint@8.57.0)(prettier@3.2.5)(typescript@5.4.5)
+    specifier: ^2.0.0
+    version: 2.0.0(eslint@8.57.0)(prettier@3.2.5)(typescript@5.4.5)
   '@sxwy/prettier-config':
-    specifier: ^1.7.0
-    version: 1.7.0
+    specifier: ^2.0.0
+    version: 2.0.0(prettier@3.2.5)
   '@sxwy/stylelint-config':
-    specifier: ^1.9.0
-    version: 1.9.0(prettier@3.2.5)(stylelint@16.3.1)
+    specifier: ^2.0.0
+    version: 2.0.0(prettier@3.2.5)(stylelint@16.3.1)
   '@tsconfig/node20':
     specifier: ^20.1.4
     version: 20.1.4
@@ -2592,29 +2592,37 @@ packages:
     dev: true
     optional: true
 
-  /@sxwy/commitlint-config@1.7.0(@types/node@20.12.7)(typescript@5.4.5):
+  /@sxwy/commitlint-config@2.0.0(@types/node@20.12.7)(commitlint@19.2.1)(typescript@5.4.5):
     resolution:
       {
-        integrity: sha512-7hmV6FTIxZU4UPihMe/Ktt5pPcdF+JbOb/NejqVidVv6dy2KDn6nVOvPNAH5GCCWmZfJJTOH74M4DyMTt5MVAA==
+        integrity: sha512-sLTPH46oEIQ7WworEF8BOBbgAIZIR33d92x96jgqxLf/DpgkMHJFcU9ZquFQ6M7TsbgFl9QmrjaXy7boFHnUbw==
       }
+    engines: { node: ^18 || ^20 }
+    peerDependencies:
+      commitlint: ^19.2.1
     dependencies:
       '@commitlint/cli': 19.2.1(@types/node@20.12.7)(typescript@5.4.5)
       '@commitlint/config-conventional': 19.1.0
+      commitlint: 19.2.1(@types/node@20.12.7)(typescript@5.4.5)
     transitivePeerDependencies:
       - '@types/node'
       - typescript
     dev: true
 
-  /@sxwy/eslint-config-base@1.9.0(eslint@8.57.0)(prettier@3.2.5)(typescript@5.4.5):
+  /@sxwy/eslint-config-base@2.0.0(eslint@8.57.0)(prettier@3.2.5)(typescript@5.4.5):
     resolution:
       {
-        integrity: sha512-bwOZdZm2/tYg7QoK9w9Y78thbRRqbxIB41mBXSLtz+0SEjs0mjazeJDj9NVyN+/gAZwPAPUm1Xbbqwk6KmtxoA==
+        integrity: sha512-HLQ4AkgCZq1ImF9Jv5X+XXG7oy4G0tiONBtuzbE95n6F8wB4go7xkT7a5kiWmz/hMr0JB9GPrPiY1w3WlYt7fg==
       }
+    engines: { node: ^18 || ^20 }
+    peerDependencies:
+      eslint: ^8.57.0
     dependencies:
       '@babel/core': 7.24.4
       '@babel/eslint-parser': 7.24.1(@babel/core@7.24.4)(eslint@8.57.0)
       '@typescript-eslint/eslint-plugin': 7.6.0(@typescript-eslint/parser@7.6.0)(eslint@8.57.0)(typescript@5.4.5)
       '@typescript-eslint/parser': 7.6.0(eslint@8.57.0)(typescript@5.4.5)
+      eslint: 8.57.0
       eslint-config-prettier: 9.1.0(eslint@8.57.0)
       eslint-config-standard: 17.1.0(eslint-plugin-import@2.29.1)(eslint-plugin-n@16.6.2)(eslint-plugin-promise@6.1.1)(eslint@8.57.0)
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.6.0)(eslint@8.57.0)
@@ -2623,7 +2631,6 @@ packages:
       eslint-plugin-promise: 6.1.1(eslint@8.57.0)
     transitivePeerDependencies:
       - '@types/eslint'
-      - eslint
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - prettier
@@ -2631,17 +2638,20 @@ packages:
       - typescript
     dev: true
 
-  /@sxwy/eslint-config-vue@1.8.0(eslint@8.57.0)(prettier@3.2.5)(typescript@5.4.5):
+  /@sxwy/eslint-config-vue@2.0.0(eslint@8.57.0)(prettier@3.2.5)(typescript@5.4.5):
     resolution:
       {
-        integrity: sha512-pCDV3aJ56PrSzb2/WX+4K63UofumLLypKTNcjv58BEBgzTpj6e6tBzEg9VEp8RLVTetwkHlfbjQQ6RMhpKWsHQ==
+        integrity: sha512-jinO2dwC35kCiJdTO4lODitjb6eh9IyQiXlbmLAb7vy6mWO71Sqo34EkEZSMp4JUfwobjhLnQLLCaLpXIa64dg==
       }
+    engines: { node: ^18 || ^20 }
+    peerDependencies:
+      eslint: ^8.57.0
     dependencies:
-      '@sxwy/eslint-config-base': 1.9.0(eslint@8.57.0)(prettier@3.2.5)(typescript@5.4.5)
+      '@sxwy/eslint-config-base': 2.0.0(eslint@8.57.0)(prettier@3.2.5)(typescript@5.4.5)
+      eslint: 8.57.0
       eslint-plugin-vue: 9.24.1(eslint@8.57.0)
     transitivePeerDependencies:
       - '@types/eslint'
-      - eslint
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - prettier
@@ -2649,30 +2659,38 @@ packages:
       - typescript
     dev: true
 
-  /@sxwy/prettier-config@1.7.0:
+  /@sxwy/prettier-config@2.0.0(prettier@3.2.5):
     resolution:
       {
-        integrity: sha512-+29TUFqaGumo1FwtnkRXunKcZbIeYJbvy98EvuEqH6Zf3S10IBiAhibCVkMhWjlJnjWWM+77kGMNPH1bFHK4dQ==
+        integrity: sha512-75mXozMQqUc1RwkB2gjLv9epmJw7bJLJFIvHH2itDgEZV4Xn2HUFQounJ0wtq356BD5Zyrv8KYKQPsE3VrtV8g==
       }
+    engines: { node: ^18 || ^20 }
+    peerDependencies:
+      prettier: ^3.2.5
+    dependencies:
+      prettier: 3.2.5
     dev: true
 
-  /@sxwy/stylelint-config@1.9.0(prettier@3.2.5)(stylelint@16.3.1):
+  /@sxwy/stylelint-config@2.0.0(prettier@3.2.5)(stylelint@16.3.1):
     resolution:
       {
-        integrity: sha512-HtfzxL0MYoNOJtY3u1BBtF+fUyMV8L5p2TpluhEq8PjX+7y6NTZ1atU4kiJp/u+EAPGJ99hzySThwp88FG2FhQ==
+        integrity: sha512-H4fySvSk3OV0aVKlrWhZsYdcKkxD3C8KtqIHZ1Uyr64KpmiL01+JH2JQFSObp+6V4RJehOxGg8TrgkkqDoVIiA==
       }
+    engines: { node: ^18 || ^20 }
+    peerDependencies:
+      stylelint: ^16.3.1
     dependencies:
       postcss: 8.4.38
       postcss-html: 1.6.0
       postcss-less: 6.0.0(postcss@8.4.38)
       postcss-scss: 4.0.9(postcss@8.4.38)
+      stylelint: 16.3.1(typescript@5.4.5)
       stylelint-config-prettier: 8.0.2(stylelint@16.3.1)
       stylelint-config-standard: 36.0.0(stylelint@16.3.1)
       stylelint-order: 6.0.4(stylelint@16.3.1)
       stylelint-prettier: 5.0.0(prettier@3.2.5)(stylelint@16.3.1)
     transitivePeerDependencies:
       - prettier
-      - stylelint
     dev: true
 
   /@tsconfig/node20@20.1.4:
