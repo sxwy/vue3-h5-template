@@ -1,0 +1,1 @@
+System.register(["./plugin-vueexport-helper-legacy-DgAO6S8O.js","./index-legacy-DcgEqPXU.js"],(function(e,t){"use strict";var r,n,u;return{setters:[e=>{r=e._},e=>{n=e.o,u=e.c}],execute:function(){e("default",r({},[["render",function(e,t){return n(),u("div",null," 首页 ")}]]))}}}));
