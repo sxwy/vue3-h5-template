@@ -1,10 +1,10 @@
-import { type RouteRecordRaw, RouterView } from 'vue-router'
+import { type RouteRecordRaw } from 'vue-router'
 
 /** 示例相关页面 */
 export default {
   name: 'Demo',
   path: '/demo',
-  component: RouterView,
+  redirect: '/demo/index',
   children: [
     // 示例首页
     {

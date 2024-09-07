@@ -4,15 +4,12 @@ import type { RouteRecordRaw } from 'vue-router'
 export default {
   name: 'Exception',
   path: '/exception',
-  redirect: '/exception/not-found/index',
-  meta: {
-    title: '异常页'
-  },
+  redirect: '/exception/not-found',
   children: [
     {
-      name: 'ExceptionNotFoundIndex',
-      path: 'not-found/index',
-      component: () => import('@/pages/exception/not-found/index.vue'),
+      name: 'ExceptionNotFound',
+      path: 'not-found',
+      component: () => import('@/pages/exception/not-found.vue'),
       meta: {
         title: '404'
       }

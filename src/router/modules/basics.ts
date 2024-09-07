@@ -10,6 +10,6 @@ export default [
   // 兜底路由
   {
     path: '/:catchAll(.*)',
-    redirect: '/exception/not-found/index'
+    redirect: '/exception/not-found'
   }
 ] as RouteRecordRaw[]
