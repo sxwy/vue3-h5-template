@@ -22,8 +22,7 @@ Vue3 + TypeScript + Vant4 项目模板
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
   - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
   - [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
-  - [Vue Language Features (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
-  - [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
+  - [Vue Language Features (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
 ## 开发规范
 
