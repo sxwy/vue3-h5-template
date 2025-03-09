@@ -61,7 +61,7 @@
     "only-allow": "^1.2.1",
     "postcss-px-to-viewport-8-plugin": "^1.2.5",
     "prettier": "^3.5.3",
-    "sass": "^1.85.1",
+    "sass": "~1.74.1",
     "sass-loader": "^14.2.1",
     "stylelint": "^16.15.0",
     "typescript": "^5.8.2",
